@@ -1,11 +1,11 @@
 export default {
-  baseUrl: 'https://dy.ttentau.top/imgs/',
+  baseUrl: 'http://localhost:8080',
   imgPath: '/imgs/',
   filePreview: 'http://192.168.0.103/static/uploads/'
 }
 const BASE_URL_MAP = {
-  DEV: '',
-  PROD: '',
+  DEV: 'http://localhost:8080',
+  PROD: 'http://localhost:8080',
   // GP_PAGES: '/dist',
   GP_PAGES: '',
   GITEE_PAGES: '/douyin',
