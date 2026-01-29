@@ -5,7 +5,7 @@ export default {
 }
 const BASE_URL_MAP = {
   DEV: 'http://localhost:8080',
-  PROD: 'http://localhost:8080',
+  PROD: '/api',  // 生产环境使用 nginx 代理路径
   // GP_PAGES: '/dist',
   GP_PAGES: '',
   GITEE_PAGES: '/douyin',

@@ -1,9 +1,9 @@
 import axios, { type AxiosError, type AxiosRequestConfig, type AxiosResponse } from 'axios'
-import config from '@/config'
+import { BASE_URL } from '@/config'
 import { _notice } from './index'
 
 export const axiosInstance = axios.create({
-  baseURL: config.baseUrl,
+  baseURL: BASE_URL,
   timeout: 60000
 })
 
